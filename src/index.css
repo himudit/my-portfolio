@@ -1,0 +1,33 @@
+/* Style for Nav items */
+.nav-item {
+  margin-right: 20px;
+  /* Adds space between each Nav item */
+  text-decoration: none;
+  /* Removes the underline */
+  color: gray;
+  /* Default color for Nav items */
+  transition: color 0.3s ease-in-out;
+  /* Smooth transition for color change */
+}
+
+.nav-item:hover {
+  color: #585757;
+  cursor: pointer;
+  /* Change color on hover */
+}
+
+/* Style for active Nav item */
+.active-link {
+  color: black !important;
+  /* Make active link black */
+}
+
+/* Optionally, you can style the Navbar */
+.navbar-transparent {
+  background: transparent;
+}
+
+.navbar-white {
+  background: white;
+}
+
